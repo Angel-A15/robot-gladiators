@@ -107,7 +107,7 @@ var startGame = function() {
       if (playerInfo.health > 0 && i < enemyInfo.length - 1) {
 
         //ask if player wants to use the store before next round
-        var storeConfirm = windowConfirm("The fight is over, visit the store before the next round?");
+        var storeConfirm = window.confirm("The fight is over, visit the store before the next round?");
 
         //if yes, take them to the store() function
         if (storeConfirm) {
